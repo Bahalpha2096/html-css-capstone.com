@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>
+        <h1>Products</h1>
+    </title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"/>
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -33,20 +41,30 @@
 </style>
 </head>
 <body>
-
-<div class="card">
+    <div class="text-center p-5">
+        <h1>Products</h1>
+    </div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm">
+<div class="card p-3">
   <img src="images/cakes.jpg" alt="cakes" style="width:100%">
   <h1>Cakes</h1>
   <p class="price">$19.99</p>
-  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
   <p><button>Add to Cart</button></p>
-</div>
+</div></div>
+
+<div class="col-sm">
 <div class="card">
   <img src="images/bread and bakeries.jpg" alt="french Baguette" style="width:100%">
   <h1>french Baguette</h1>
   <p class="price">$4.99</p>
   <p></p>
   <p><button>Add to Cart</button></p>
+</div>
+</div>
+
+<div class="col-sm">
   <div class="card">
     <img src="images/pastries.jpg" alt="Pastries" style="width:100%">
     <h1>Almond Croissant</h1>
@@ -54,6 +72,9 @@
     <p></p>
     <p><button>Add to Cart</button></p>
   </div>
+</div>
+
+<div class="col-sm">
   <div class="card">
     <img src="images/beverages.jpg" alt="Hot/Cold Coffee" style="width:100%">
     <h1>Hot/Cold Coffee</h1>
@@ -61,6 +82,10 @@
     <p></p>
     <p><button>Add to Cart</button></p>
   </div>
+</div>
+
+
+<div class="col-sm">
   <div class="card">
     <img src="images/coffee beans.jpg" alt="Coffee bean" style="width:100%">
     <h1>Rosted Coffee bean</h1>
@@ -69,8 +94,13 @@
     <p><button>Add to Cart</button></p>
   </div>
 </div>
+
+
+</div>
+</div>
+</div>
 <div>
-    <a href="index.html">Home</href=>></a>
+    <a class="btn btn-primary" href="index.html">Home</a>
 </div>
 </body>
 </html>
